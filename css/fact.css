@@ -1,0 +1,243 @@
+/* fact Section */
+.fact-section {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #022542;
+}
+
+.fact-section .section-title {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #68aaf8;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+}
+
+.fact-section .section-description {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+}
+
+.fact-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fact-col {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.fact-col .image-container {
+  position: relative;
+}
+
+.fact-col img {
+  width: 100%;
+  height: auto;
+}
+
+/* Fact One Section */
+.fact-one-section {
+  /* padding: 50px 0; */
+  background-color: #022542;
+}
+
+.fact-one-section .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fact-one-section .row {
+  display: flex;
+  flex: 1;
+}
+
+.fact-one-section .text-col,
+.fact-one-section .image-col {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fact-one-section .text-col {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/bg-flower.png");
+  background-repeat: no-repeat;
+  /* background-position: 5%; */
+}
+
+.fact-one-section .image-col {
+  background-color: #666;
+}
+
+.fact-one-section .text-content {
+  text-align: center;
+  max-width: 80%;
+  /* background-position: -15%; */
+}
+
+.fact-one-section .text-content h2 {
+  margin-bottom: 10px;
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  text-align: start;
+}
+
+.fact-one-section .text-content p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+  text-align: start;
+}
+
+.fact-one-section .image-col img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.fact-one-section .container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+/* Fact two Section */
+.fact-two-section {
+  padding: 100px 0;
+  background-image: url("../images/fact-bg.png");
+}
+
+.fact-two-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.fact-two-section .row {
+  display: flex;
+  width: 90%;
+}
+
+.fact-two-section .text-col,
+.fact-two-section .image-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fact-two-section .text-col {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.fact-two-section .image-col {
+  width: 40%;
+  margin: 0 5%;
+}
+
+.fact-two-section .text-content h2 {
+  margin-bottom: 10px;
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  text-align: start;
+}
+
+.fact-two-section .text-content p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+  text-align: start;
+}
+
+.fact-two-section .image-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fact-two-section .container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+/* Logo Section */
+.logo-section {
+  padding: 100px 0;
+  text-align: center;
+  background-image: url("../images/common-bg-1.jpg");
+}
+
+.logo-section .section-title {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #68aaf8;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+}
+
+.logo-section .section-description {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+}
+
+.logo-section .row {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-section .logo-col {
+  flex: 1;
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
+.logo-section .image-container {
+  position: relative;
+}
+
+.logo-section img {
+  width: auto;
+  height: 80%;
+}
+
+.logo-section .btn {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px 30px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.logo-section .btn:hover {
+  background-color: #022542;
+}

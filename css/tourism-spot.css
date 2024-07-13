@@ -1,0 +1,258 @@
+/* Tour Section */
+.tour-section {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+  text-align: center;
+  background-image: url("../images/common-bg-1.jpg");
+  background-repeat: repeat;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.tour-section .section-title {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-family: "Hammersmith One", sans-serif;
+  color: #fff;
+}
+
+.tour-section .section-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+  font-weight: 600;
+}
+
+.section-description {
+  width: 70%;
+}
+
+.video-row {
+  margin-bottom: 30px;
+  width: 70%;
+}
+
+iframe {
+  padding: 15px;
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.image-col {
+  flex: 1;
+  margin: 25px;
+}
+
+.nested-col {
+  flex: 1;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nested-row {
+  display: flex;
+  flex: 1;
+  /* margin-bottom: 10px; */
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+}
+
+.odense-section {
+  background-image: none;
+  background-color: #022542;
+}
+
+.odense-section .section-title {
+  color: #68aaf8;
+}
+
+.odense-subtitle {
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  text-align: start;
+  padding-bottom: 30px;
+}
+
+.red-color-text {
+  font-size: 40px;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  color: #ff0000;
+}
+
+.odense-description {
+  color: #fff;
+  font-family: "Piazzolla", serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: start;
+}
+
+.odense-section .image-col {
+  /* align-items: center; */
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Museum Section */
+.museum-section {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #022542;
+}
+
+.museum-section .section-title {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+}
+
+.museum-section .section-description {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+}
+
+.museum-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.museum-col {
+  flex: 1;
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
+.museum-col .image-container {
+  position: relative;
+}
+
+.museum-col img {
+  width: 100%;
+  height: auto;
+}
+
+/* Aalborg Section */
+.aalborg-section {
+  padding: 50px 0;
+  background-color: #022542;
+  text-align: center;
+}
+
+.aalborg-section .section-title {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+}
+
+.aalborg-section .section-description {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+}
+
+.aalborg-row {
+  display: flex;
+  width: 70%;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-col {
+  width: 50%;
+  text-align: left;
+  margin: 0 5%;
+}
+
+.aalborg-section .image-col {
+  margin: 0px;
+  width: 20%;
+}
+
+.aalborg-img {
+  width: 100%;
+}
+
+.text-col h3 {
+  font-size: 24px;
+}
+
+.text-col p {
+  font-size: 16px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.location img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.location span {
+  font-size: 16px;
+}
+
+.location-description {
+  /* margin-top: 20px; */
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+}
+
+.location-title {
+  margin-bottom: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}

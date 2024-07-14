@@ -177,3 +177,69 @@
 .divider-img {
   width: 100%;
 }
+
+.mobile-nav-before {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+  padding: 10px 0px;
+  border-bottom: 2px #000 solid;
+  /* background-color: #ff0000; */
+}
+
+.nav-container {
+  /* background-color: #022542; */
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-nav-before p {
+  font-size: 25px;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+}
+
+.mobile-nav-before a {
+  font-size: 25px;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #022542;
+}
+
+.extra-space {
+  padding: 30px 0;
+}
+
+#mobileNav {
+  padding: 20px 0;
+  background-color: none;
+  background-image: url("../images/mobile-nav-bg.png");
+  background-size: auto 100%;
+  display: none;
+  height: 100vh;
+}
+
+#mobile-nav-before {
+  padding: 20px 0;
+}
+
+#humberger img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  #desktopView {
+    display: none;
+  }
+
+  #mobileView {
+  }
+
+  .navbar-logo img {
+    height: auto;
+    width: 50%;
+  }
+}

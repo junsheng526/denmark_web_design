@@ -1,0 +1,301 @@
+/* culture.css */
+.culture-section {
+  position: relative;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.culture-section .section-description {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+  text-align: center;
+}
+
+.carousel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.carousel-inner {
+  display: flex;
+  width: 300%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  width: 100;
+  flex: 1;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item.active {
+  display: flex;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-controls {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  z-index: 4;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  cursor: pointer;
+  font-size: 2rem;
+  color: white;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 4;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.culture-section .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 4;
+}
+
+.culture-section .section-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.culture-section .section-description {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+  text-align: center;
+}
+
+/* festivals.css */
+.festivals-section {
+  padding: 50px 0;
+  background-color: #022542;
+}
+
+.festivals-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.festivals-section .row {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.festivals-section .col-left {
+  flex: 1;
+  /* padding: 20px; */
+}
+
+.festivals-section .col-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.festivals-section .festival-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  width: 100%;
+  color: #68aaf8;
+}
+
+.festivals-section .festival-description {
+  padding-bottom: 10%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+}
+
+.festivals-section .festival-image {
+  width: 100%;
+  height: 100%;
+}
+
+.festivals-section .festival-square-image {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.festival-content-section {
+  padding: 50px 0;
+  background-image: url("../images/common-bg-1.jpg");
+}
+
+.festival-content-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #022542;
+  margin: 0px 10%;
+  padding: 2% 0;
+  width: 80%;
+}
+
+.festival-content-section .row {
+  display: flex;
+  align-items: center;
+}
+
+.festival-content-section .col-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.festival-content-section .col-right {
+  flex: 1;
+  padding: 20px;
+}
+
+.festival-content-section .circle-image {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.festival-content-section .content-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  width: 100%;
+  color: #ff0000;
+}
+
+.festival-content-section .content-description {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+}
+
+/* fastelavn.css */
+.fastelavn-section {
+  padding: 50px 0;
+  background-color: #022542;
+  background-image: url("../images/flower-bg.png");
+  background-size: cover;
+}
+
+.fastelavn-section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fastelavn-section .section-title {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-family: "Hammersmith One", sans-serif;
+  color: #fff;
+}
+
+.fastelavn-section .section-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+  font-weight: 600;
+  width: 70%;
+  text-align: center;
+}
+
+.fastelavn-section .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.fastelavn-section .col {
+  flex: 1;
+  max-width: 300px;
+  margin: 10px;
+}
+
+.fastelavn-section .card {
+  background-color: #f4f4f4;
+  overflow: hidden;
+  text-align: center;
+}
+
+.fastelavn-section .card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.fastelavn-section .card-title {
+  padding: 15px;
+}
+
+.fastelavn-section .card-title h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Hammersmith One", sans-serif;
+  color: #ff0000;
+}

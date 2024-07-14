@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./css/home.css" />
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbar" id="desktopView">
       <div class="container">
         <div class="navbar-logo">
           <a href="#"><img src="./images/logo.png" alt="Logo" /></a>
@@ -36,7 +36,52 @@
         </div>
       </div>
     </nav>
+    <nav id="mobileNav">
+      <div class="nav-container">
+        <div class="mobile-nav-before">
+          <p>NAVIGATION</p>
+          <i id="humberger" class="fa" onclick="closeFunc()"
+            ><img src="./images/humburger.png"
+          /></i>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="mobile-nav-before extra-space">
+          <a href="./home.html">HOME</a>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="mobile-nav-before extra-space">
+          <a href="./html/tourism-spot.html">TOURISM SPOT</a>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="mobile-nav-before extra-space">
+          <a href="./html/culture.html">CULTURE</a>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="mobile-nav-before extra-space">
+          <a href="./html/food.html">FOOD</a>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="mobile-nav-before extra-space">
+          <a href="./html/fact.html">FACTS</a>
+        </div>
+      </div>
+    </nav>
     <section class="main-content">
+      <div class="nav-container" id="mobile-nav-before">
+        <div class="mobile-nav-before">
+          <div class="navbar-logo">
+            <a href="#"><img src="./images/logo.png" alt="Logo" /></a>
+          </div>
+          <i id="humberger" class="fa" onclick="openNav()"
+            ><img src="./images/humburger.png"
+          /></i>
+        </div>
+      </div>
       <div class="home-container">
         <div class="row">
           <div class="col content-text">
@@ -67,5 +112,322 @@
         </div>
       </div>
     </section>
+    <section class="divider-section">
+      <div class="divider">
+        <img
+          class="divider-img"
+          src="../images/divider.png"
+          alt="Divider Image"
+        />
+      </div>
+    </section>
+    <section class="explore-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-left">
+            <img
+              src="./images/home-map.png"
+              alt="Explore Image"
+              class="explore-image"
+            />
+          </div>
+          <div class="col-right">
+            <div class="sub-row">
+              <h2 class="explore-title">
+                Exploring the<br />
+                Geography of Denmark
+              </h2>
+            </div>
+            <div class="sub-row">
+              <p class="explore-description">
+                Jutland peninsula and numerous Baltic Sea islands form Denmark,
+                a Nordic nation in northern Europe. Bordering Germany to the
+                south and neighbors Sweden and Norway, Denmark boasts a mostly
+                flat landscape with fertile plains and sandy coastlines. Its
+                temperate climate features mild, rainy winters and cool summers.
+                The highest points barely reach 170 meters, making it a
+                low-lying country.
+              </p>
+            </div>
+            <div class="sub-row">
+              <div class="col">
+                <h3 class="explore-subtitle">The capital of Denmark</h3>
+                <p class="explore-subtitle-value">Copenhagen</p>
+              </div>
+              <div class="col">
+                <h3 class="explore-subtitle">Population</h3>
+                <p class="explore-subtitle-value">5.9 million</p>
+              </div>
+              <div class="col">
+                <h3 class="explore-subtitle">Currency</h3>
+                <p class="explore-subtitle-value">Danish krone (DKK)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="divider-section">
+      <div class="divider">
+        <img
+          class="divider-img"
+          src="../images/divider.png"
+          alt="Divider Image"
+        />
+      </div>
+    </section>
+    <section class="timeline-section">
+      <h2 class="section-title">A Journey Through Denmark's History</h2>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot start-dot"></div>
+          <div class="timeline-date">883</div>
+          <div class="timeline-content">
+            <p>
+              King Gorm becomes the first known ruler of a united Danish
+              kingdom.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">940-985</div>
+          <div class="timeline-content">
+            <p>
+              The reign of Harold Bluetooth. The Christian church is established
+              in Denmark.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">1013</div>
+          <div class="timeline-content">
+            <p>Union of Denmark and England.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">1397</div>
+          <div class="timeline-content">
+            <p>
+              The three kingdoms of Denmark, Sweden, and Norway are united in
+              the Union of Kalmar.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">1523</div>
+          <div class="timeline-content">
+            <p>Sweden leaves the union.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">1536</div>
+          <div class="timeline-content">
+            <p>Reformation</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">1787</div>
+          <div class="timeline-content">
+            <p>The first population census of genealogical value was taken.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">1788</div>
+          <div class="timeline-content">
+            <p>
+              The abolition of the "stavnsbaand" (compulsory residence by the
+              peasant and farming classes.)
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">1812</div>
+          <div class="timeline-content">
+            <p>A printed format for parish registers begins.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">1814</div>
+          <div class="timeline-content">
+            <p>
+              At the Treaty of Kiel, Denmark is compelled to cede Norway to
+              Sweden.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">1863</div>
+          <div class="timeline-content">
+            <p>
+              Denmark goes to war against Prussia and Austria. In the Treaty of
+              Prague (1866), Denmark cedes Schleswig-Holstein to Prussia
+              (Germany).
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">1915</div>
+          <div class="timeline-content">
+            <p>
+              A new constitution establishes a two-chamber parliament elected by
+              universal suffrage.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">1920</div>
+          <div class="timeline-content">
+            <p>
+              After a referendum, northern Schleswig is returned to Denmark.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">1940-1945</div>
+          <div class="timeline-content">
+            <p></p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">1946</div>
+          <div class="timeline-content">
+            <p>
+              The Genealogical Society of Utah begins microfilming on 1 June.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot end-dot"></div>
+          <div class="timeline-date"></div>
+        </div>
+      </div>
+      <div class="empty-div">
+        <!-- This div is empty -->
+      </div>
+    </section>
+    <section class="logo-section">
+      <div class="container">
+        <h2 class="section-title">Unveiling the Land of Everyday Wonder</h2>
+        <p class="section-description">
+          Denmark is one of the oldest kingdoms in the world and is known for
+          its many historic castles and fairytale cities. Many cities in Denmark
+          are not only beautiful but also have a wide range of urban activities,
+          making them the best destinations for travelers to relax and vacation.
+        </p>
+        <div class="row">
+          <div class="col logo-col">
+            <div class="image-container">
+              <img src="./images/city-1.jpg" alt="Partner 1" />
+              <a href="#" class="btn">Copenhagen</a>
+            </div>
+          </div>
+          <div class="col logo-col">
+            <div class="image-container">
+              <img src="./images/city-2.jpg" alt="Partner 2" />
+              <a href="#" class="btn">Odence</a>
+            </div>
+          </div>
+          <div class="col logo-col">
+            <div class="image-container">
+              <img src="./images/city-3.jpg" alt="Partner 3" />
+              <a href="#" class="btn">Aarhus</a>
+            </div>
+          </div>
+          <div class="col logo-col">
+            <div class="image-container">
+              <img src="./images/city-4.jpg" alt="Partner 3" />
+              <a href="#" class="btn">Aalborg</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="culture-section">
+      <div class="container">
+        <h2 class="section-title">Experience Danish Culture</h2>
+        <p class="section-description">
+          Embark on a cultural adventure! The Denmark Culture Festival is your
+          chance to explore the rich tapestry of Danish traditions, art, and
+          heritage. Immerse yourself in folklore, design, and contemporary
+          expressions that define Denmark today. Savor delicious regional
+          specialties, witness captivating performances, and participate in
+          engaging workshops. This festival promises a unique and unforgettable
+          experience.
+        </p>
+        <div class="row">
+          <div class="col">
+            <img
+              class="culture-img"
+              src="./images/home-culture-1.jpg"
+              alt="Culture Image 1"
+            />
+          </div>
+          <div class="col">
+            <div class="culture-info">
+              <h3>Living Traditions</h3>
+              <p>
+                Delve into the rich tapestry of culture and history that awaits
+                in Denmark. Explore ancient ruins, vibrant traditions, and
+                captivating art forms.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <img
+              class="culture-img"
+              src="./images/home-culture-2.jpg"
+              alt="Culture Image 3"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="culture-info">
+              <h3>Culture Fests</h3>
+              <p>
+                A vibrant celebration of everything Danish! Immerse yourself in
+                a whirlwind of tradition, modern flair, and the undeniable magic
+                of hygge.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <img
+              class="culture-img"
+              src="./images/home-culture-3.jpg"
+              alt="Culture Image 2"
+            />
+          </div>
+          <div class="col">
+            <div class="culture-info">
+              <h3>Dish it up</h3>
+              <p>
+                Get ready to embark on a delicious adventure! Explore our food
+                stalls and restaurants, and prepare to be delighted by the rich
+                tapestry of Danish culinary traditions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p><a href="./references.html">All design based on references</a></p>
+        <p>Copyright © All Rights Reserved by KeYing | QianLin</p>
+      </div>
+    </footer>
+    <script>
+      function openNav() {
+        console.log("openNav onClick");
+        document.getElementById("mobileNav").style.display = "block";
+        document.getElementById("mobile-nav-before").style.display = "none";
+      }
+      function closeFunc() {
+        console.log("openNav onClick");
+        document.getElementById("mobileNav").style.display = "none";
+        document.getElementById("mobile-nav-before").style.display = "flex";
+      }
+    </script>
   </body>
 </html>

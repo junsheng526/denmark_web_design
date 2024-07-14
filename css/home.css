@@ -1,0 +1,357 @@
+/* explore.css */
+.explore-section {
+  padding: 50px 0;
+  background-color: #022542;
+}
+
+.explore-section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.explore-section .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.explore-section .col-left {
+  flex: 1;
+  max-width: 400px;
+  margin: 10px;
+}
+
+.explore-section .col-left .explore-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.explore-section .col-right {
+  flex: 1;
+  max-width: 600px;
+  margin: 10px;
+}
+
+.explore-section .explore-title {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Hammersmith One", sans-serif;
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+.explore-section .explore-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+  font-weight: 600;
+  width: 70%;
+  text-align: justify;
+}
+
+.explore-section .row:last-child {
+  margin-top: 20px;
+}
+
+.explore-section .col {
+  flex: 1;
+  max-width: 200px;
+  /* margin: 0 10px; */
+}
+
+.sub-row {
+  display: flex;
+}
+
+.explore-section .explore-subtitle {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Hammersmith One", sans-serif;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.explore-section .explore-subtitle-value {
+  font-size: 18px;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+  font-weight: 600;
+}
+
+.timeline-section {
+  /* background-color: #24292d; */
+  background-image: url("../images/timeline-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  padding: 0px 15px;
+}
+.timeline-items {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.timeline-items::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #fff;
+  left: calc(50% - 1px);
+}
+.timeline-item {
+  /* margin-bottom: 40px; */
+  width: 100%;
+  position: relative;
+}
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+.timeline-item:nth-child(odd) {
+  padding-right: calc(50% + 30px);
+  text-align: right;
+}
+.timeline-item:nth-child(even) {
+  padding-left: calc(50% + 30px);
+  margin-top: -5%;
+}
+.timeline-dot {
+  height: 16px;
+  width: 16px;
+  background-color: #fff;
+  position: absolute;
+  left: calc(50% - 8px);
+  border-radius: 50%;
+  top: 10px;
+}
+.start-dot {
+  top: -10px;
+}
+.end-dot {
+  top: 40px;
+}
+.timeline-date {
+  margin: 6px 0 15px;
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-family: "Hammersmith One", sans-serif;
+  color: #ff0000;
+}
+.timeline-content {
+  /* background-color: #2f363e; */
+  /* padding: 30px; */
+  /* border-radius: 5px; */
+}
+.timeline-content h3 {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0 0 10px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.timeline-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+  font-weight: 600;
+}
+
+.timeline-section .section-title {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-family: "Hammersmith One", sans-serif;
+  color: #ff0000;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.empty-div {
+  width: 300px;
+  height: 200px;
+}
+
+/* Logo Section */
+.logo-section {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #022542;
+}
+
+.logo-section .section-title {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #ff0000;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+}
+
+.logo-section .section-description {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+}
+
+.logo-section .row {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-section .logo-col {
+  width: 100%;
+  height: 100%;
+  margin: 0 10px;
+}
+
+.logo-section .image-container {
+  position: relative;
+  width: 70%;
+}
+
+.logo-section img {
+  /* height: 80%;
+  width: 100%; */
+}
+
+.logo-section .btn {
+  position: absolute;
+  bottom: -20px;
+  left: 60%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.logo-section .btn:hover {
+  background-color: #022542;
+}
+
+.culture-section {
+  padding: 80px 0;
+  background-color: #022542;
+}
+
+.culture-section .row {
+  background-color: #1e5aa0;
+}
+
+.culture-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.culture-title h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.culture-title p {
+  font-size: 1.2rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  flex: 1;
+  /* margin: 0 15px; */
+}
+
+.culture-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.culture-item img {
+  /* max-width: 100%;
+  height: auto;
+  margin-bottom: 20px; */
+}
+
+.culture-img {
+  width: 100%;
+  height: 100%;
+}
+
+.culture-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.culture-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  width: 70%;
+}
+
+.culture-info p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+  width: 70%;
+}
+
+.culture-section .section-title {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #68aaf8;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.culture-section .section-description {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+  text-align: center;
+}
+
+/* responsive */
+@media (max-width: 767px) {
+  .timeline-items::before {
+    left: 7px;
+  }
+  .timeline-item:nth-child(odd) {
+    padding-right: 0;
+    text-align: left;
+  }
+  .timeline-item:nth-child(odd),
+  .timeline-item:nth-child(even) {
+    padding-left: 37px;
+  }
+  .timeline-dot {
+    left: 0;
+  }
+}

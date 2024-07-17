@@ -259,17 +259,37 @@ iframe {
 
 /* Mobile Styles */
 @media (max-width: 767px) {
-  .section-title {
-    font-size: 32px;
+  .container {
+    padding: 0 40px;
   }
 
-  .section-description {
+  .tour-section .section-title {
+    font-size: 32px;
+    text-align: start;
+  }
+
+  .tour-section .section-description {
     width: 100%;
     font-size: 16px;
+    text-align: start;
   }
 
   .video-row iframe {
-    height: 200px;
+    height: 155px;
+    width: 100%;
+    border: none;
+    display: block;
+  }
+
+  iframe {
+    margin: 0px !important;
+    padding: 0px !important;
+    border: 0px !important;
+  }
+
+  .video-row {
+    margin-bottom: 30px;
+    width: 100%;
   }
 
   .image-row {
@@ -320,8 +340,9 @@ iframe {
   }
 
   .main-content {
-    background-image: url("../images/food-mobile-bg.png");
-    background-size: cover;
+    background-image: url("../images/tourism-mobile-bg-new.png");
+    background-size: 100% 100%;
+    height: 100vh;
   }
 
   .content-text .small-text p {
@@ -337,5 +358,92 @@ iframe {
 
   .tour-section .image-title {
     font-size: 10px;
+  }
+
+  .tour-section .image-row {
+    width: 100%;
+    /* margin-bottom: 30px; */
+  }
+
+  .tour-section .nested-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    /* margin-bottom: 30px; */
+  }
+
+  .tour-section .image-row {
+    height: 100%;
+  }
+  .tour-section .col,
+  .nested-col {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .tour-section .image-container {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .tour-section {
+    background-size: contain;
+  }
+
+  .odense-section .section-title {
+    font-size: 32px;
+  }
+
+  .odense-section .section-description {
+    font-size: 16px;
+  }
+
+  .odense-section h2 {
+    margin-top: 80px;
+  }
+
+  .aalborg-section .section-title,
+  .museum-section .section-title {
+    font-size: 32px;
+    text-align: start;
+  }
+
+  .aalborg-section .section-description,
+  .museum-section .section-description {
+    width: 100%;
+    font-size: 16px;
+    text-align: start;
+  }
+
+  .museum-section .row {
+    flex-direction: column;
+  }
+
+  .aalborg-section .row {
+    width: 100%;
+  }
+
+  .aalborg-section .red-color-text {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .location-description {
+    font-size: 16px;
+    /* margin-bottom: 15px; */
+    align-items: center;
+    height: 100%;
+  }
+
+  .location {
+    /* margin-bottom: 15px; */
+  }
+
+  .aalborg-row p {
+    margin-bottom: 15px;
   }
 }

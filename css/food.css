@@ -364,7 +364,8 @@
 
   .main-content {
     background-image: url("../images/food-mobile-bg.png");
-    background-size: cover;
+    background-size: 100% 100%;
+    height: 100vh;
   }
 
   .content-text .small-text p {
@@ -387,6 +388,62 @@
     font-size: 14px;
   }
 
-  .food-one-section {
+  #food-one-section-mobile .section-title {
+    font-size: 32px;
+    text-align: start;
+  }
+
+  #food-one-section-mobile .section-description {
+    width: 100%;
+    font-size: 16px;
+    text-align: start;
+  }
+
+  #food-one-section-mobile {
+    padding: 0 40px;
+  }
+
+  .cuisines-section .content-container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .cuisines-section .content-container .subtitle,
+  .cuisines-section .content-container .title,
+  .cuisines-section .content-container .description,
+  .cuisines-section .content-container .ingredient-title,
+  .cuisines-section .content-container .ingredient-description {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .cuisines-section .content-container {
+    /* margin: 0; */
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .cuisines-section .content-container .ingredient-description {
+    font-weight: 400;
+  }
+
+  .dessert-section .section-header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+  }
+
+  .dessert-section .card {
+    width: 100%;
+  }
+
+  .dessert-section .card img {
+    width: 100%;
+  }
+
+  .dessert-section .card p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Piazzolla", serif;
   }
 }

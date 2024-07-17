@@ -435,7 +435,7 @@
   .main-content {
     background-image: url("../images/fact-mobile-bg.png");
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    height: 100vh;
   }
 
   .content-text .small-text p {
@@ -452,5 +452,52 @@
 
   .main-content .home-container .row {
     text-align: start;
+  }
+
+  .logo-section .section-title,
+  .fact-section .section-title {
+    font-size: 32px;
+    text-align: start;
+  }
+
+  .logo-section .section-description,
+  .fact-section .section-description {
+    width: 100%;
+    font-size: 16px;
+    text-align: start;
+  }
+
+  .fact-one-section .text-col {
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+  }
+
+  .fact-one-section .image-col img {
+    padding: 0 30px;
+  }
+
+  .fact-two-section {
+    padding: 50px 0;
+  }
+
+  .fact-two-section .container .row {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .fact-two-section .container {
+    margin: 0;
+    padding: 0 30px;
+    width: 100%;
+  }
+
+  .fact-two-section .image-col img {
+    margin-bottom: 10px;
+  }
+
+  .logo-section .image-container img {
+    margin-bottom: 40px;
   }
 }

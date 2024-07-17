@@ -346,7 +346,7 @@
   .main-content {
     background-image: url("../images/culture-mobile-bg.png");
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    height: 100vh;
   }
 
   .content-text .small-text p {
@@ -378,5 +378,70 @@
 
   .fastelavn-section .section-description {
     font-size: 14px;
+  }
+
+  .culture-section {
+    position: relative;
+    height: 258px;
+    color: white;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .carousel {
+    width: 100%;
+    height: 258px;
+    position: relative;
+  }
+
+  .carousel-inner {
+    display: flex;
+    width: 300%;
+    height: 258px;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carousel-item {
+    width: 100;
+    flex: 1;
+    height: 258px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  .fastelavn-section .section-title,
+  .festival-content-section .content-title,
+  .festivals-section .festival-title {
+    width: 100%;
+    font-size: 32px;
+    text-align: start;
+  }
+
+  .fastelavn-section .section-description,
+  .festival-content-section .content-description,
+  .festivals-section .festival-description {
+    width: 100%;
+    font-size: 16px;
+    text-align: start;
+  }
+
+  .festival-content-section {
+    padding: 50px 0;
+    background-image: url("../images/common-bg-1.jpg");
+    background-size: cover;
   }
 }

@@ -227,8 +227,8 @@
 }
 
 #humberger img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 }
 
 @media (max-width: 768px) {
@@ -240,7 +240,7 @@
   }
 
   #mobile-nav-before {
-    border: 2px #000 solid;
+    border-bottom: 2px #000 solid;
   }
 
   #mobile-nav-before .mobile-nav-before {
@@ -282,8 +282,8 @@
 
   .content-text .large-text h1 {
     font-size: 48px;
-    margin-bottom: 20px;
-    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-top: 20px;
     font-family: "Hammersmith One", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
@@ -292,7 +292,7 @@
 
   .content-text .medium-text h2 {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: #ff0000;
     font-family: "Hammersmith One", sans-serif;
     font-weight: 400;
@@ -306,20 +306,23 @@
     font-family: "Piazzolla", serif;
     /* text-align: center; */
     font-weight: 700;
-    color: #fff;
+    color: #022542;
     width: 100%;
     padding-right: 20px;
     width: 70%;
+    text-align: start;
   }
 
   .btn {
-    padding: 15px 30px;
+    padding: 5px 10px;
     margin-right: 20px;
     text-align: center;
     text-decoration: none;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-size: 12px;
+    font-weight: 400;
   }
 
   .content-image {
@@ -345,5 +348,10 @@
     color: #fff;
     padding: 30px 0;
     text-align: center;
+  }
+
+  .navbar-logo img {
+    height: auto;
+    width: 80%;
   }
 }

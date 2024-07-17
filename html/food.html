@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="../css/food.css" />
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbar" id="desktopView">
       <div class="container">
         <div class="navbar-logo">
           <a href="#"><img src="../images/logo.png" alt="Logo" /></a>
@@ -36,7 +36,52 @@
         </div>
       </div>
     </nav>
+    <nav id="mobileNav">
+      <div class="nav-container">
+        <div class="mobile-nav-before">
+          <p>NAVIGATION</p>
+          <i id="humberger" class="fa" onclick="closeFunc()"
+            ><img src="../images/humburger.png"
+          /></i>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="mobile-nav-before extra-space">
+          <a href="../home.html">HOME</a>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="mobile-nav-before extra-space">
+          <a href="./tourism-spot.html">TOURISM SPOT</a>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="mobile-nav-before extra-space">
+          <a href="./culture.html">CULTURE</a>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="mobile-nav-before extra-space">
+          <a href="./food.html">FOOD</a>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="mobile-nav-before extra-space">
+          <a href="./fact.html">FACTS</a>
+        </div>
+      </div>
+    </nav>
     <section class="main-content">
+      <div class="nav-container" id="mobile-nav-before">
+        <div class="mobile-nav-before">
+          <div class="navbar-logo">
+            <a href="#"><img src="../images/logo.png" alt="Logo" /></a>
+          </div>
+          <i id="humberger" class="fa" onclick="openNav()"
+            ><img src="../images/humburger.png"
+          /></i>
+        </div>
+      </div>
       <div class="home-container">
         <div class="row">
           <div class="col content-text">
@@ -56,7 +101,9 @@
               </p>
             </div>
             <div class="row">
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <div>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
             </div>
           </div>
           <div class="col content-image">
@@ -74,8 +121,23 @@
         />
       </div>
     </section>
-    <section class="food-one-section">
+    <section class="food-one-section" id="food-one-section-desktop">
       <div class="container">
+        <h2 class="section-title">
+          That's fantastic news for Denmark's culinary scene!
+        </h2>
+        <p class="section-description">
+          Denmark wins the European Championship in gastronomy  After two days of competition with Nordic flavours in Trondheim (Norway), Denmark, represented by Sebastian Holberg Svendsgaard, took the first place on the podium at the Bocuse d'Or Europe. In the last decades, fine dining has become a thing in Denmark, and the number of Michelin star restaurants has just gone up – currently, Denmark holds 45 Michelin starts shared among 35 restaurants.
+          <br><br>
+          The 10th edition of the Nordic Michelin Guide is fresh off the press, and once again, Denmark stands out as a strong gastronomic leader in the Nordic region.
+        </p>
+    </section>
+    <section class="food-one-section" id="food-one-section-mobile">
+      <div class="container">
+        <img
+          src="../images/food-bg.png"
+          alt="Divider Image"
+        />
         <h2 class="section-title">
           That's fantastic news for Denmark's culinary scene!
         </h2>
@@ -94,7 +156,7 @@
         />
       </div>
     </section>
-    <section class="cuisines-section">
+    <section class="cuisines-section" id="cuisines-section-desktop">
       <div class="container">
         <div class="section-header">
           <img src="../images/food-icon.png" alt="Dessert Icon" />
@@ -168,6 +230,80 @@
         </div>
       </div>
     </section>
+    <section class="cuisines-section" id="cuisines-section-mobile">
+      <div class="container">
+        <div class="section-header">
+          <img src="../images/food-icon.png" alt="Dessert Icon" />
+          <h2>Danish Cuisines</h2>
+        </div>
+        <div class="row">
+          <div class="col image-col">
+            <img src="../images/cuisines-1.png" alt="Smørrebrød" />
+          </div>
+          <div class="col content-col">
+            <div class="content-container">
+              <div class="subtitle">
+                Denmark's national food dish 
+              </div>
+              <div class="title">
+                Stegt flæsk
+              </div>
+              <div class="description">
+                A few years ago, Danes were asked to vote for their national dish. And the winning dish, a classic pork recipe 'stegt flæsk med persillesovs', was no surprise. The crispy pork with parsley sauce and potatoes is a very old dish that has won the hearts, and tummies, of Danes for centuries. You can try the Danes' national dish in many restaurants around Denmark. Luckily, it is actually among the cheaper eats and if you become a fan, some restaurants even offer all-you-can-eat pork at affordable prices.
+              </div>
+              <div class="ingredient-title">Ingredient</div>
+              <div class="ingredient-description">
+                Roast pork , Potatoes , Parsley Sauce
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col image-col">
+            <img src="../images/cuisines-2.png" alt="Frikadeller" />
+          </div>
+          <div class="col content-col">
+            <div class="content-container">
+              <div class="subtitle">
+                Danish Pork Meatballs
+              </div>
+              <div class="title">
+                Frikadeller
+              </div>
+              <div class="description">
+                Frikadeller are flat, pan-fried meatballs of minced pork and veal with onions, eggs, milk, and breadcrumbs. They are one of the most popular and frequently made meals in Denmark, often served with boiled potatoes and gravy, or with rye bread and pickled vegetables.
+              </div>
+              <div class="ingredient-title">Ingredient</div>
+              <div class="ingredient-description">
+                Pork, Veal, Onions, Eggs, Milk, Breadcrumbs
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col image-col">
+            <img src="../images/cuisines-3.png" alt="Smørrebrød" />
+          </div>
+          <div class="col content-col">
+            <div class="content-container">
+              <div class="subtitle">
+                Danish Minced Beef with Fried Onions
+              </div>
+              <div class="title">
+                Hakkebøf
+              </div>
+              <div class="description">
+                Danish minced beef with caramelized onions and brown sauce makes for a perfectly cozy evening meal. The dish has been around for generations, back when cattle farms supplied the freshest and most tender meats and the beef had to be minced manually.It continues to be one of the most appreciated dishes among Danish people of all ages.
+              </div>
+              <div class="ingredient-title">Ingredient</div>
+              <div class="ingredient-description">
+                Beef , Potatoes , Onion , Pickled gherkins / Pickled beets
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="divider-section">
       <div class="divider">
         <img
@@ -236,5 +372,17 @@
         <p>Copyright © All Rights Reserved by KeYing | QianLin</p>
       </div>
     </footer>
+    <script>
+      function openNav() {
+        console.log("openNav onClick");
+        document.getElementById("mobileNav").style.display = "block";
+        document.getElementById("mobile-nav-before").style.display = "none";
+      }
+      function closeFunc() {
+        console.log("openNav onClick");
+        document.getElementById("mobileNav").style.display = "none";
+        document.getElementById("mobile-nav-before").style.display = "flex";
+      }
+    </script>
   </body>
 </html>

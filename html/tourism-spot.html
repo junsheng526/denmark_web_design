@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="../css/tourism-spot.css" />
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbar" id="desktopView">
       <div class="container">
         <div class="navbar-logo">
           <a href="#"><img src="../images/logo.png" alt="Logo" /></a>
@@ -40,7 +40,52 @@
         </div>
       </div>
     </nav>
+    <nav id="mobileNav">
+      <div class="nav-container">
+        <div class="mobile-nav-before">
+          <p>NAVIGATION</p>
+          <i id="humberger" class="fa" onclick="closeFunc()"
+            ><img src="../images/humburger.png"
+          /></i>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="mobile-nav-before extra-space">
+          <a href="../home.html">HOME</a>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="mobile-nav-before extra-space">
+          <a href="./tourism-spot.html">TOURISM SPOT</a>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="mobile-nav-before extra-space">
+          <a href="./culture.html">CULTURE</a>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="mobile-nav-before extra-space">
+          <a href="./food.html">FOOD</a>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="mobile-nav-before extra-space">
+          <a href="./fact.html">FACTS</a>
+        </div>
+      </div>
+    </nav>
     <section class="main-content">
+      <div class="nav-container" id="mobile-nav-before">
+        <div class="mobile-nav-before">
+          <div class="navbar-logo">
+            <a href="#"><img src="../images/logo.png" alt="Logo" /></a>
+          </div>
+          <i id="humberger" class="fa" onclick="openNav()"
+            ><img src="../images/humburger.png"
+          /></i>
+        </div>
+      </div>
       <div class="home-container">
         <div class="row">
           <div class="col content-text">
@@ -60,7 +105,9 @@
               </p>
             </div>
             <div class="row">
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <div>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
             </div>
           </div>
           <div class="col content-image">
@@ -296,5 +343,17 @@
         <p>Copyright © All Rights Reserved by KeYing | QianLin</p>
       </div>
     </footer>
+    <script>
+      function openNav() {
+        console.log("openNav onClick");
+        document.getElementById("mobileNav").style.display = "block";
+        document.getElementById("mobile-nav-before").style.display = "none";
+      }
+      function closeFunc() {
+        console.log("openNav onClick");
+        document.getElementById("mobileNav").style.display = "none";
+        document.getElementById("mobile-nav-before").style.display = "flex";
+      }
+    </script>
   </body>
 </html>

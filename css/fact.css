@@ -333,3 +333,124 @@
 .indicator-img.active {
   opacity: 1;
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .main-content .home-container .row {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .main-content .home-container .col {
+    width: 100%;
+  }
+  .fact-section .section-title {
+    font-size: 32px;
+  }
+  .fact-section .section-description {
+    font-size: 16px;
+  }
+  .fact-images {
+    flex-direction: column;
+  }
+  .fact-col {
+    margin: 10px 0;
+  }
+  .fact-col img {
+    width: 100%;
+  }
+  .fact-one-section .row {
+    flex-direction: column;
+  }
+  .fact-one-section .text-col,
+  .fact-one-section .image-col {
+    width: 100%;
+  }
+
+  .fact-one-section {
+    padding: 50px 0;
+  }
+
+  .fact-one-section .text-content h2 {
+    font-size: 32px;
+  }
+  .fact-one-section .text-content p {
+    font-size: 16px;
+  }
+  .fact-two-section .row {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  .fact-two-section .text-col,
+  .fact-two-section .image-col {
+    width: 100%;
+  }
+
+  .fact-two-section .image-col {
+    margin: 0;
+  }
+
+  .fact-two-section .text-content {
+    max-width: 100%;
+  }
+  .fact-two-section .text-content h2 {
+    font-size: 32px;
+  }
+  .fact-two-section .text-content p {
+    font-size: 16px;
+  }
+  .logo-section .section-title {
+    font-size: 32px;
+  }
+  .logo-section .section-description {
+    font-size: 16px;
+  }
+  .logo-section .row {
+    flex-direction: column;
+  }
+  .logo-section .logo-col {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .logo-section .logo-col img {
+    width: 100%;
+  }
+
+  .logo-section .btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+
+  .main-content {
+    background-image: url("../images/fact-mobile-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .content-text .small-text p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: "Piazzolla", serif;
+    /* text-align: center; */
+    font-weight: 700;
+    color: #022542;
+    width: 100%;
+    padding-right: 20px;
+    width: 70%;
+  }
+
+  .main-content .home-container .row {
+    text-align: start;
+  }
+}

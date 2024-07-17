@@ -94,7 +94,7 @@
 }
 
 .dessert-section .card img {
-  width: 100%;
+  width: 60%;
   height: 300px;
 }
 
@@ -235,4 +235,158 @@
 .image-col-special {
   background-size: 80% 100%;
   background-repeat: no-repeat;
+}
+
+#cuisines-section-mobile {
+  display: none;
+}
+
+#food-one-section-mobile {
+  display: none;
+}
+#food-one-section-mobile img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  #food-one-section-desktop {
+    display: none;
+  }
+  #food-one-section-mobile {
+    display: block;
+    background-image: none;
+    background-color: #022542;
+  }
+  #food-one-section-mobile .section-title {
+    font-size: 32px;
+  }
+  #food-one-section-mobile .section-description {
+    font-size: 14px;
+  }
+  /* Food Section */
+  .food-one-section .section-title {
+    font-size: 36px;
+  }
+
+  .food-one-section .section-description {
+    width: 90%;
+  }
+
+  /* Dessert Section */
+  .dessert-section .section-title {
+    font-size: 36px;
+  }
+
+  .dessert-section .section-description {
+    width: 90%;
+  }
+
+  .dessert-section .row {
+    width: 100%;
+  }
+
+  .dessert-section .col {
+    max-width: 100%;
+    margin: 20px 0;
+  }
+
+  .dessert-section .card img {
+    height: auto;
+  }
+
+  /* Cuisines Section */
+  .cuisines-section .content-container {
+    margin: 5%;
+    padding: 20px;
+  }
+
+  .cuisines-section .section-header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+  }
+
+  .cuisines-section .section-header h2 {
+    font-size: 32px;
+  }
+
+  .cuisines-section .content-col .subtitle {
+    font-size: 18px;
+    width: 90%;
+  }
+
+  .cuisines-section .content-col .title {
+    font-size: 32px;
+  }
+
+  .cuisines-section .content-col .description {
+    font-size: 14px;
+  }
+
+  .cuisines-section .image-col img {
+    left: 0;
+    margin-bottom: 20px;
+  }
+
+  .cuisines-section .image-col-special {
+    left: 0;
+  }
+
+  #cuisines-section-desktop {
+    display: none;
+  }
+
+  #cuisines-section-mobile {
+    display: block;
+  }
+
+  .cuisines-section .row:nth-child(3) .image-col img {
+    left: 0;
+  }
+
+  .dessert-section .col {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .dessert-section h3 {
+    font-size: 28px;
+  }
+
+  .dessert-section p {
+    font-size: 16px;
+  }
+
+  .dessert-section .section-header h2 {
+    font-size: 36px;
+  }
+
+  .main-content {
+    background-image: url("../images/food-mobile-bg.png");
+    background-size: cover;
+  }
+
+  .content-text .small-text p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: "Piazzolla", serif;
+    /* text-align: center; */
+    font-weight: 700;
+    color: #022542;
+    width: 100%;
+    padding-right: 20px;
+    width: 70%;
+  }
+
+  .dessert-section .card {
+    margin: 0 5%;
+  }
+
+  .dessert-section .card p {
+    font-size: 14px;
+  }
+
+  .food-one-section {
+  }
 }

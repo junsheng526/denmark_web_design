@@ -299,3 +299,84 @@
   font-family: "Hammersmith One", sans-serif;
   color: #ff0000;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .festivals-section .row {
+    flex-direction: column;
+  }
+
+  .festivals-section .col-left,
+  .festivals-section .col-right,
+  .festival-content-section .col-left,
+  .festival-content-section .col-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .festival-content-section {
+    margin: 0;
+    width: 100%;
+  }
+
+  .festival-content-section .container .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .festival-content-section .circle-image {
+    width: 60%;
+    height: 60%;
+  }
+
+  .festival-content-section .content-title {
+    font-size: 2rem;
+  }
+
+  .fastelavn-section .row {
+    flex-direction: column; /* Change to column direction */
+    align-items: center; /* Center align the items */
+  }
+
+  .fastelavn-section .col {
+    max-width: 100%; /* Make each column take full width */
+    margin: 10px 0; /* Add margin between rows */
+  }
+
+  .main-content {
+    background-image: url("../images/culture-mobile-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .content-text .small-text p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: "Piazzolla", serif;
+    /* text-align: center; */
+    font-weight: 700;
+    color: #022542;
+    width: 100%;
+    padding-right: 20px;
+    width: 70%;
+  }
+
+  .festival-square-image {
+    display: none;
+  }
+
+  .culture-section .section-description {
+    font-size: 14px;
+  }
+
+  .fastelavn-section {
+    padding: 50px 0;
+    background-color: #022542;
+    background-image: url("../images/flower-bg.png");
+    background-size: contain;
+  }
+
+  .fastelavn-section .section-description {
+    font-size: 14px;
+  }
+}

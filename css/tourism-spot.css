@@ -256,3 +256,86 @@ iframe {
 .mb-10 {
   margin-bottom: 10px;
 }
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 32px;
+  }
+
+  .section-description {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .video-row iframe {
+    height: 200px;
+  }
+
+  .image-row {
+    flex-direction: column;
+  }
+
+  .image-col,
+  .nested-col,
+  .nested-row {
+    margin: 10px 0;
+  }
+
+  .odense-subtitle {
+    font-size: 24px;
+  }
+
+  .red-color-text {
+    font-size: 32px;
+  }
+
+  .odense-description {
+    font-size: 16px;
+  }
+
+  .museum-col {
+    margin: 10px 0;
+  }
+
+  .text-col {
+    width: 100%;
+  }
+
+  .aalborg-row {
+    flex-direction: column;
+  }
+
+  .aalborg-section .image-col {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .location span {
+    font-size: 14px;
+  }
+
+  .location-description {
+    font-size: 16px;
+  }
+
+  .main-content {
+    background-image: url("../images/food-mobile-bg.png");
+    background-size: cover;
+  }
+
+  .content-text .small-text p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: "Piazzolla", serif;
+    font-weight: 700;
+    color: #022542;
+    width: 100%;
+    padding-right: 20px;
+    width: 70%;
+  }
+
+  .tour-section .image-title {
+    font-size: 10px;
+  }
+}

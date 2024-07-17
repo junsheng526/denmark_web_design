@@ -225,7 +225,7 @@
 .logo-section .btn {
   position: absolute;
   bottom: -20px;
-  left: 60%;
+  left: 50%;
   transform: translateX(-50%);
   padding: 10px 20px;
   background-color: #ff0000;
@@ -281,12 +281,6 @@
   text-align: center;
 }
 
-.culture-item img {
-  /* max-width: 100%;
-  height: auto;
-  margin-bottom: 20px; */
-}
-
 .culture-img {
   width: 100%;
   height: 100%;
@@ -302,7 +296,6 @@
 }
 
 .culture-info h3 {
-  font-size: 1.8rem;
   margin-bottom: 10px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -353,5 +346,124 @@
   }
   .timeline-dot {
     left: 0;
+  }
+
+  .end-dot {
+    top: 1px;
+  }
+
+  .timeline-date {
+    margin: 6px 0 15px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-family: "Hammersmith One", sans-serif;
+    color: #ff0000;
+  }
+
+  .timeline-section .section-title {
+    font-size: 32px;
+  }
+
+  .timeline-content p {
+    font-size: 14px;
+  }
+
+  /* Logo Section */
+  .logo-section .row {
+    flex-direction: column;
+  }
+
+  .logo-section .logo-col {
+    margin: 10px 0;
+  }
+
+  .logo-section .image-container {
+    width: 100%;
+  }
+
+  .logo-section img {
+    width: 100%;
+    height: auto;
+  }
+
+  .logo-section .btn {
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+  }
+
+  /* Culture Section */
+  .culture-section .row {
+    flex-direction: column;
+  }
+
+  .culture-img,
+  .culture-info h3,
+  .culture-info p {
+    width: 100%;
+  }
+
+  .culture-img {
+    height: 100%;
+  }
+
+  .culture-info h3 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    width: 70%;
+  }
+
+  .culture-info p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #fff;
+    font-family: "Piazzolla", serif;
+    width: 70%;
+  }
+
+  .main-content {
+    background-image: url("../images/home-mobile-bg.jpg");
+    background-size: cover;
+  }
+
+  .explore-section .explore-title {
+    font-size: 32px;
+  }
+
+  .explore-section .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .explore-section .explore-description {
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-family: "Piazzolla", serif;
+    font-weight: 600;
+    width: auto;
+    text-align: justify;
+  }
+
+  .explore-section .explore-subtitle-value {
+    font-size: 12px;
+    color: #fff;
+    font-family: "Piazzolla", serif;
+    font-weight: 600;
+  }
+
+  .timeline-section {
+    /* background-color: #24292d; */
+    background-image: url("../images/new-timeline-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    padding: 0px 15px;
   }
 }

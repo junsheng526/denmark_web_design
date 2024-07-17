@@ -223,6 +223,7 @@
 
 #mobile-nav-before {
   padding: 20px 0;
+  display: none;
 }
 
 #humberger img {
@@ -238,8 +239,111 @@
   #mobileView {
   }
 
+  #mobile-nav-before {
+    border: 2px #000 solid;
+  }
+
+  #mobile-nav-before .mobile-nav-before {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    padding: 0px;
+    border-bottom: none;
+  }
+
+  #mobile-nav-before {
+    display: flex;
+  }
+
   .navbar-logo img {
     height: auto;
     width: 50%;
+  }
+
+  .main-content {
+    /* height: auto; */
+    padding: 0 0 50px 0;
+  }
+
+  .main-content .home-container {
+    padding-left: 30px;
+  }
+
+  .main-content .row {
+    flex-direction: column;
+    /* text-align: center; */
+  }
+
+  .content-image img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .content-text .large-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: start;
+  }
+
+  .content-text .medium-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff0000;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: start;
+  }
+
+  .content-text .small-text p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: "Piazzolla", serif;
+    /* text-align: center; */
+    font-weight: 700;
+    color: #fff;
+    width: 100%;
+    padding-right: 20px;
+    width: 70%;
+  }
+
+  .btn {
+    padding: 15px 30px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .content-image {
+    display: none;
+  }
+
+  .divider-img {
+    /* width: auto; */
+    height: 50px;
+    object-fit: cover;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+
+  .footer a {
+    font-size: 14px;
+  }
+
+  .footer {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
   }
 }
